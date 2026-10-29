@@ -10,11 +10,11 @@ Odbiór: można przejść na szkicach od utworzenia bazy do publikacji materiał
 
 ## 1. Uruchamialny fundament
 
-- Wygenerować aplikację React/TypeScript/Vite w `apps/web` i solution z czterema projektami w `apps/api`.
+- Gotowe: wygenerowana aplikacja React/TypeScript/Vite w `apps/web` i solution z czterema projektami w `apps/api`; ekran startowy sprawdza połączenie z API.
 - Wybrać i przypiąć wspierane wersje narzędzi na moment implementacji, dodać lockfile.
 - Dodać PostgreSQL do lokalnego Compose, EF Core i pierwsze migracje.
 - Skonfigurować Identity, sesję, CSRF, potwierdzanie e-mail i reset hasła; lokalny odbiornik poczty.
-- Dodać OpenAPI, obsługę błędów, lint/build i CI.
+- Gotowe: OpenAPI, podstawowe ProblemDetails oraz skrypty lint/build frontendu. Do zrobienia: CI i obsługa błędów biznesowych.
 
 Odbiór: świeży checkout uruchamia się według README; rejestracja, logowanie i wylogowanie działają.
 
